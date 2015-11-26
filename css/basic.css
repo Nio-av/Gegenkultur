@@ -1,3 +1,7 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -11,21 +15,14 @@ body{
 }
 
 
-.background {
-    background: url('http://beta.himate.de/wp-content/plugins/wp-maintenance-mode/assets/images/backgrounds/bg1.jpg') no-repeat center top fixed;
-    background-size: cover;
+
+
+
+#Footer-Wraper{
+    display: table-row;
 }
-
-
-
-
-
 footer{
     display: table-cell;
     vertical-align: bottom;
     text-align: center;
-}
-
-#Footer-Wraper{
-    display: table-row;
 }
