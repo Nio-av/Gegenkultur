@@ -1,0 +1,36 @@
+* {
+    color: white;
+}
+
+.background {
+    background: url(https://farm3.staticflickr.com/2677/4351183836_19e7f11575_o.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+
+article {
+    text-align: center;
+    display: table-row;
+    height: 26vh;
+}
+
+h1 {
+    font-size: 6.3vw;
+    margin-bottom: 4px;
+}
+
+p {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+.fb-login-button {
+    text-align: center;
+    display: table-cell !important;
+    height: 50px;
+}
+
+#GoOn-Link{
+    text-align: center;
+    display: none;
+    
+}
