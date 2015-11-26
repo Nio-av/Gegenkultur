@@ -1,0 +1,21 @@
+nav{
+    position: relative;
+    margin: 0px;
+    background-color: lightblue;
+    min-height: 40px;
+    display: table;
+    width: 100%;
+}
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+}
+
+#content{
+    padding-left: 30px;
+}
+
+th{
+    min-width: 120px;
+    text-align: left
+}
