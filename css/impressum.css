@@ -1,0 +1,24 @@
+.background{
+    background-color: #315559;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 10px;
+    padding-bottom: 10px;
+}
+h1{
+    color: white !important;
+}
+
+a{
+    color: 7d72a6;
+    margin-right: 20px;
+}
+nav{
+    padding-top: 20px;
+    display: table-cell;
+}
+
+article{
+    display: table-row;
+}
+
