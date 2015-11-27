@@ -1,10 +1,38 @@
 <script>
+    
+    
+    
+    var FB; // to avoid error "undeclared variable", until FB got initialized
+    var myQueue = new Array();
+    function queueAdd(f){
+      if (FB == undefined)
+        myQueue.push(f);
+      else
+        f();
+    }
+
+    function processQueue(){
+      var f;
+      while(f = myQueue.shift())
+        f();
+    }
+    
+    
+    
+    
+    //############ Basic SDK-Init ##############//
+    
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '1519037951732644',
       xfbml      : true,
       version    : 'v2.5'
     });
+    
+      
+      processQueue(); // to avoid error "undeclared variable"
+      
+      
   };
 
   (function(d, s, id){
