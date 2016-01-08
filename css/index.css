@@ -1,36 +1,91 @@
-* {
+html, body{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+#content{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    text-align: center;
+}
+
+#center{
+    width: 100vw;
+    text-align: center;
+}
+
+#ship-img{
+    max-width: 500px;
+    width: 90%;
+}
+
+#ship{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+
+#ShipText{
+    margin-top: -100px;
+    color: #061f2a;
+    padding-bottom: 40px;
+    font-size: 2em:
+}
+
+@media(max-width:550px){
+    #ShipText{
+        font-size: 5vw;
+        color: red;
+    }
+}
+
+#gutschein{
+    max-width: 80%;
+}
+
+
+#description{
+    max-width: 800px;
+    margin: auto;
     color: white;
 }
 
-.background {
-    background: url(https://farm3.staticflickr.com/2677/4351183836_bbeb4fa3a5_b.jpg) no-repeat center top fixed;
-    background-size: cover;
+#description hr{
+    max-width: 400px; 
 }
 
-article {
+#impressum-Link{
+    color: white;
+}
+
+
+
+
+
+#White-Footer{
+    
+    position: absolute;
+    padding: 30px 0px;
+    
+
+    bottom: -10px;
     text-align: center;
-    display: table-row;
-    height: 26vh;
-}
-
-h1 {
-    font-size: 6.3vw;
-    margin-bottom: 4px;
-}
-
-p {
-    font-size: 3vw;
-    margin: 0px;
-}
-
-.fb-login-button {
-    text-align: center;
-    display: table-cell !important;
-    height: 50px;
-}
-
-#GoOn-Link{
-    text-align: center;
-    display: none;
+    
+    margin-bottom: -10px;
+    
+    height: 100px;
+    width: 0%;
+    border-left: 0%;
+	border-right: 100vw solid #FCFCFF;
+	border-top: 50px solid transparent;
     
 }
+
