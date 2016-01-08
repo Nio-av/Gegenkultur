@@ -1,0 +1,27 @@
+.background{
+    background-color: #315559;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 10px;
+    padding-bottom: 10px;
+}
+h1{
+    color: white;
+    padding-bottom: 10px;
+}
+
+a{
+    color: #7d72a6;
+    padding-right: 20px;
+}
+nav{
+    display: table-cell;
+}
+
+article{
+    display: table-row;
+}
+
+#Output{
+    max-width: 800px;
+}

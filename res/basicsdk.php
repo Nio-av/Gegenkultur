@@ -26,7 +26,8 @@
     FB.init({
       appId      : '1519037951732644',
       xfbml      : true,
-      version    : 'v2.5'
+      version    : 'v2.5',
+      cookie     : 'true'
     });
     
       
